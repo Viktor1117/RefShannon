@@ -36,6 +36,6 @@ LC_ALL=C.UTF-8
     mkdir Refshannon
     cd Refshannon
     
-    sudo apt-get https://github.com/shunfumao/RefShannon.git -y
+    apt-get https://github.com/shunfumao/RefShannon.git -y
     
     
