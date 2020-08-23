@@ -33,6 +33,9 @@ LC_ALL=C.UTF-8
     conda install -c bioconda pyfaidx
     
     cd /bin
-    sudo apt-get https://github.com/shunfumao/RefShannon.git
+    mkdir Refshannon
+    cd Refshannon
+    
+    sudo apt-get https://github.com/shunfumao/RefShannon.git -y
     
     
