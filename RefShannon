@@ -31,10 +31,10 @@ LC_ALL=C.UTF-8
     conda install -c conda-forge python-markdown-math
     conda install -c conda-forge mkl_random
     conda install -c bioconda pyfaidx
+    conda install -c anaconda pip
+    pip install pathlib
     
     cd /bin
-    mkdir Refshannon
-    cd Refshannon
     
     git clone https://github.com/shunfumao/RefShannon.git 
     
